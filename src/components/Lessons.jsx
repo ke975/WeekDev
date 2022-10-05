@@ -14,7 +14,7 @@ const {slug} = useParams();
         <div className="row">
             <div className="col-md-8 mx-auto  ">
 
-            <div className="card mx-auto col-sm-6 " style={{width: "16rem"}}>
+            <div className="card mx-auto col-sm-6 " style={{width: "18rem"}}>
   <div className="card-body bg-dark ">
   <Link style={{textDecoration:"none" , color:"white", }} to={`/event/lesson/${props.slug}`} className="mx-auto "> 
           
