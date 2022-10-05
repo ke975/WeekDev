@@ -1,5 +1,5 @@
 import React from 'react'
-import { Lessons } from '../componets/Lessons'
+import { Lessons } from '../components/Lessons'
 
 export  function Prueba() {
   return (

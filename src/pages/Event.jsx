@@ -1,7 +1,7 @@
 import React from 'react'
-import { Header } from '../componets/header'
-import { Sidebar } from '../componets/Sidebar'
-import { Video } from '../componets/Video'
+import { Header } from '../components/Header'
+import { Sidebar } from '../components/Sidebar'
+import { Video } from '../components/Video'
 import Logo from'../assets/Logo.svg'
 
 import { useParams } from 'react-router-dom'
