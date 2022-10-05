@@ -10,7 +10,7 @@ const {slug} = useParams();
 
   return (
     <div>
-    <div className=" mt-3 pt-5  text-center ">
+    <div className="  pt-2  text-center ">
         <div className="row">
             <div className="col-md-8 mx-auto  ">
 
