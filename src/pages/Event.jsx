@@ -3,7 +3,7 @@ import { Header } from '../components/Header'
 import { Sidebar } from '../components/Sidebar'
 import { Video } from '../components/Video'
 import Logo from'../assets/Logo.svg'
-
+import {Link} from'react-router-dom'
 import { useParams } from 'react-router-dom'
 
 
@@ -24,7 +24,12 @@ export  function Event() {
         <div className="row">
      
           <div className="col-md-8 mt-5 col-lg-8 order-md-first">
-           <Video  lessonSlug={slug}/> 
+            {
+              slug ?
+          <Video  lessonSlug={slug}/> 
+          : 
+              <Link to="/event/lesson/fundamentos">Accece al contenido clicando </Link>
+            }
           </div>
           <div className="col-md-4 col-lg-4 order-sm-first order-xs-first ">
             <Sidebar/>
