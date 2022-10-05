@@ -36,7 +36,7 @@ createSubscriber({
   }
 })
 
-navigate('event/lesson')
+navigate('event')
 
 
 console.log(name, email)
